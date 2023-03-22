@@ -11,7 +11,7 @@
   <%--<li>id=<%=((Member)request.getAttribute("member")).getId()%></li>
   <li>username=<%=((Member)request.getAttribute("member")).getUsername()%></li>
   <li>age=<%=((Member)request.getAttribute("member")).getAge()%></li>--%>
-  <%--JSP 제공 프로퍼티 접근법--%>
+  <%--JSP 제공 프로퍼티 접근법  request의 attribute에 담긴 데이터를 편리하게 조회 --%>
   <li>id=${member.id}</li>
   <li>username=${member.username}</li>
   <li>age=${member.age}</li>

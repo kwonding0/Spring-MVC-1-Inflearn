@@ -21,7 +21,7 @@ public class MemberRepository {
         return instance;
     }
 
-    private MemberRepository() {
+    private MemberRepository() {  //싱글톤을 위함 다른사람이 새로운 MemberRepository를 불러오지 못하기 위해
 
     }
 
